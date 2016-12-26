@@ -27,7 +27,7 @@ test_con = FreeipaEasy::User("http://localhost", "admin", "pass")
 
 2) Authorization
 
-test_con.authorization_password
+test_con.authentication_password
 
 3)Add user
 
