@@ -22,16 +22,26 @@ Or install it yourself as:
 
 ## Usage
 1) Create object:
+
 test_con = FreeipaEasy::User("http://localhost", "admin", "pass") 
+
 2) Authorization
+
 test_con.authorization_password
+
 3)Add user
+
 test_con.add_user(first_name,second_name,email@com, login,password)
 2)Modify user
+
 test_con.modify_user(login,{:email => "test2@mail.com})
+
 3) And etc
+
 test_con.disable_user(login)
+
 test_con.u_usernlock(login)
+
 test_con.delete(login)
 
 
